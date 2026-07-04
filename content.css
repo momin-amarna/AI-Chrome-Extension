@@ -1,0 +1,15 @@
+/* Overlay that sits on top of the text field and shows the ghost suggestion */
+.ai-autocomplete-overlay {
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+  color: transparent;
+  pointer-events: none;
+  position: absolute;
+  z-index: 2147483647;
+}
+
+/* The gray suggestion text itself */
+.ai-autocomplete-ghost {
+  color: #9aa0a6;
+}

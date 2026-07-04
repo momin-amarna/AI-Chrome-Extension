@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Autocomplete</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup">
+    <div class="header">
+      <img src="icons/icon48.png" alt="AI Autocomplete" class="logo" />
+      <h1>AI Autocomplete</h1>
+    </div>
+
+    <p class="description">
+      Suggests text as you type in text boxes across the web. Press Tab to accept a suggestion.
+    </p>
+
+    <div class="row">
+      <span class="row-label">Enabled</span>
+      <label class="switch">
+        <input type="checkbox" id="enabledToggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="row">
+      <span class="row-label">API status</span>
+      <span id="apiStatus" class="status">Checking...</span>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
