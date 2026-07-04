@@ -78,7 +78,7 @@ const GEMINI_API_KEY = "YOUR_API_KEY";
 
 ## Technologies
 
-- JavaScript (no TypeScript)
+- JavaScript
 - Chrome Extension Manifest V3
 - Gemini API (`generateContent` endpoint)
 - Plain HTML and CSS for the popup
